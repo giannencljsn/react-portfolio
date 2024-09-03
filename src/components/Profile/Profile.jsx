@@ -9,14 +9,17 @@ export const Profile = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hello, this is Gianne</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 1 year of experience in Javascript, PHP, Codeigniter, MYSQL, feel free to contact me for more information!
+        I'm a full-stack developer with 1 year of experience in Javascript, PHP, Codeigniter, MYSQL, feel free to contact me for more information!
         </p>
         <button className={styles.contactBtn}>
         <span><a href="mailto:giannejuson16@gmail.com" className={styles.anchorCbtn}>Send a Message</a></span>
         </button>
-        
       </div>
-      <img src={getImageUrl("profile/profileImage.png")} alt="Gianne profile image" className={styles.heroImg}/>
+      <img
+        src={getImageUrl("profile/profileImage.png")}
+        alt="Profile image of me"
+        className={styles.profileImg}
+      />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
