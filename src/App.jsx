@@ -1,6 +1,6 @@
 import styles from "./App.module.css";
 
-import { Navbar } from './components/Navbar';
+import { Navbar } from './components/Navbar/Navbar';
 import { Profile } from "./components/Profile/Profile";
 
 
