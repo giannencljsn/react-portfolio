@@ -16,7 +16,7 @@ export const Profile = () => {
         </button>
       </div>
       <img
-        src={getImageUrl("profile/profileImage.png")}
+        src={getImageUrl("profile/portfolio-me.png")}
         alt="Profile image of me"
         className={styles.profileImg}
       />
